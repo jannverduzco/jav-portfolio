@@ -5,7 +5,7 @@ import Contact from "./Componets/Contact";
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <About />
       <Projects />
       <Contact />

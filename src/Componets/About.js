@@ -1,13 +1,12 @@
-import React from "react"
- 
+import React from "react";
+
 function About(props) {
   return (
-    <div>
-      <h1>Hi!
-        <p>My name is Janneth and I am a Full Stack Web</p>
-      </h1>
-    </div>
-  )
+      <div className="section-container">
+        <h5>Hi! My name is Janneth and I am a Full Stack Web Developer.</h5>
+      </div>
+    
+  );
 }
- 
+
 export default About;
