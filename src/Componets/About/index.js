@@ -10,7 +10,7 @@ function About() {
           backgroundSize: "cover",
         }}
       >
-        <h5>Hi! My name is Janneth and I am a Full Stack Web Developer.</h5>
+        <h5> I am a Full Stack Web Developer.</h5>
       </div>
     </div>
   );
