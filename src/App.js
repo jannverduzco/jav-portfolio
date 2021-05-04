@@ -6,9 +6,9 @@ import Contact from "./Componets/Contact";
 function App() {
   return (
     <div className="container">
-      <About />
-      <Projects />
-      <Contact />
+        <About />
+        <Projects />
+        <Contact />
     </div>
   );
 }
