@@ -7,7 +7,7 @@ function About() {
     <div className="container">
       <h1>About Me</h1>
       <div className="row about-me-section">
-        <div className="col-sm-3 img-div">
+        <div className="col-sm-3">
           <img src={JannethV} alt="Janneth Verduzco" height={200} width={200} />
         </div>
         <div className="col-sm-6">
