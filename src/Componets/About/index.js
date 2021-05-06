@@ -8,7 +8,7 @@ function About() {
       <h1>About Me</h1>
       <div className="row about-me-section">
         <div className="col-sm-3">
-          <img src={JannethV} alt="Janneth Verduzco" height={200} width={200} />
+          <img src={JannethV} alt="Janneth Verduzco" height={320} width={320} />
         </div>
         <div className="col-sm-6">
           I live in San Antonio, Texas, where I graduated from The University of
