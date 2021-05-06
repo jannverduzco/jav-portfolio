@@ -1,7 +1,25 @@
+.container {
+  background-image: url("../../images/about-me.jpg");
+  background-size: cover;
+}
 h1 {
   text-align: center;
 }
 
 img {
   float: left;
+}
+
+.about-me-section {
+  background-color: white;
+}
+
+/* container at 768px media query */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
