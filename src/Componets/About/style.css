@@ -1,3 +1,7 @@
-.section-container {
-    width: max-content;
+h1 {
+  text-align: center;
+}
+
+img {
+  float: left;
 }
