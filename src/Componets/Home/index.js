@@ -25,7 +25,7 @@ function About() {
         </Animator>
       </ScrollPage>
       <ScrollPage page={1}>
-        <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
+        <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -250))}>
           <span style={{ fontSize: "1.5rem" }}>
             My name is Janneth and I am a Full Stack Web Developer ✨
           </span>
@@ -35,10 +35,21 @@ function About() {
         <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
           <span style={{ fontSize: "1.5rem" }}>
             <ul>
-              <ol>I'm Self Motivated💪 </ol>
-              <ol> I Love and Enjoy Coding 👨‍💻 </ol>
-              <ol>I love to be surrounded by plants🍃 and nature🌳</ol>
-              <ol>Get to know more about me and my work😃</ol>
+              <b>
+                <ol>I AM ...</ol>
+
+                <ol>DEDICATED</ol>
+
+                <ol>SELF MOTIVATED </ol>
+
+                <ol>DETERMINED </ol>
+
+                <ol>HUMBLE</ol>
+
+                <ol>CONSISTENT</ol>
+
+                <ol>HUMBLE</ol>
+              </b>
             </ul>
           </span>
         </Animator>

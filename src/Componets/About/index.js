@@ -7,10 +7,10 @@ function About() {
     <div className="container">
       <h1>About Me</h1>
       <div className="row about-me-section">
-        <div className="col-sm-3">
+        <div className="col-md-4d">
           <img src={JannethV} alt="Janneth Verduzco" height={320} width={320} />
         </div>
-        <div className="col-sm-6">
+        <div className="col-md-6">
           I live in San Antonio, Texas, where I graduated from The University of
           Texas with a Biology Degree. I used my degree to focus on clinical
           trials. Four years post-graduation I have received my certificate,
