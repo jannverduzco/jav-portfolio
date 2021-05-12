@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 4.3em;
+  letter-spacing: -4px;
+  font-weight: 700;
+  color: #af7c39;
+  text-align: center;
+}

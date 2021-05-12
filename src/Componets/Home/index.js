@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 import {
   Animator,
   ScrollContainer,
@@ -7,7 +8,7 @@ import {
   Fade,
   // FadeIn,
   // Move,
-  MoveIn,
+  // MoveIn,
   MoveOut,
   Sticky,
   // StickyIn,
@@ -34,23 +35,35 @@ function About() {
       <ScrollPage page={2}>
         <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
           <span style={{ fontSize: "1.5rem" }}>
-            <ul>
-              <b>
-                <ol>I AM ...</ol>
+            <div>
+              <ul>
+                <b>
+                  <ol>
+                    <h1>DEDICATED</h1>
+                  </ol>
 
-                <ol>DEDICATED</ol>
+                  <ol>
+                    <h1>SELF MOTIVATED </h1>
+                  </ol>
 
-                <ol>SELF MOTIVATED </ol>
+                  <ol>
+                    <h1>DETERMINED </h1>
+                  </ol>
 
-                <ol>DETERMINED </ol>
+                  <ol>
+                    <h1>HUMBLE</h1>
+                  </ol>
 
-                <ol>HUMBLE</ol>
+                  <ol>
+                    <h1>CONSISTENT</h1>
+                  </ol>
 
-                <ol>CONSISTENT</ol>
-
-                <ol>HUMBLE</ol>
-              </b>
-            </ul>
+                  <ol>
+                    <h1>HUMBLE</h1>
+                  </ol>
+                </b>
+              </ul>
+            </div>
           </span>
         </Animator>
       </ScrollPage>

@@ -5,7 +5,7 @@ import JannethV from "../../images/jannethaverduzco.jpg";
 function About() {
   return (
     <div className="container">
-      <h1>About Me</h1>
+      <h2>About Me</h2>
       <div className="row about-me-section">
         <div className="col-md-4d">
           <img src={JannethV} alt="Janneth Verduzco" height={320} width={320} />
