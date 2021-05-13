@@ -26,14 +26,14 @@ function About() {
         </Animator>
       </ScrollPage>
       <ScrollPage page={1}>
-        <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -250))}>
+        <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -100))}>
           <span style={{ fontSize: "1.5rem" }}>
             My name is Janneth and I am a Full Stack Web Developer ✨
           </span>
         </Animator>
       </ScrollPage>
       <ScrollPage page={2}>
-        <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -1000))}>
+        <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -100))}>
           <div>
             <ul>
               <b>
