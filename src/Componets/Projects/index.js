@@ -1,8 +1,8 @@
 import React from "react";
 import AutoMind from "../../images/autoMind.jpg";
-import EatDaBurger from "../../images/eatDaBurger.jpg";
+import ALists from "../../images/a-lists.jpg";
 import ReadMeGen from "../../images/readMeGen.PNG";
-import BudgetTracker from "../../images/BudgetTracker.png";
+import FitnessTracker from "../../images/fitnessTracker.jpg";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
@@ -12,69 +12,116 @@ function Projects() {
       <Row>
         <Col md={6}>
           AutoMind
-          <img src={AutoMind} alt="AutoMind" height={150} width={400} />{" "}
-          <Row>
-            <a href="https://github.com/jannverduzco/AutoMind">
-              AutoMind on GitHub
+          <img src={AutoMind} alt="AutoMind" height={150} width={300} />{" "}
+          <div className="icons">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://github.com/jannverduzco/AutoMind"
+            >
+              <i className="fab fa-github" title="github repo" id="github">
+                {" "}
+              </i>
             </a>
-          </Row>
-          <Row>
-            <a href="https://auto-mind.herokuapp.com/">AutoMind on Heroku</a>
-          </Row>
+            <a
+              rel="noopener noreferrer"
+              href="https://auto-mind.herokuapp.com/"
+              target="_blank"
+            >
+              {" "}
+              <i
+                className="fas fa-external-link-alt"
+                title="live preview"
+                id="live"
+              ></i>
+            </a>
+          </div>
         </Col>
         <Col md={6}>
-          Eat-Da-Burger
+          A-Lists
           <img
-            src={EatDaBurger}
-            alt="EatDaBurger"
+            src={ALists}
+            alt="ALists"
             height={150}
-            width={400}
+            width={300}
           />{" "}
-          <Row>
-            <a href="https://github.com/jannverduzco/Eat-Da-Burger">
-              Eat-Da-Burger on GitHub
+          <div className="icons">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://github.com/jannverduzco/a-lists"
+            >
+              <i className="fab fa-github" title="github repo" id="github">
+                {" "}
+              </i>
             </a>
-          </Row>
-          <Row>
-            <a href="https://eat-da-brg.herokuapp.com/">
-              Eat-Da-Burger on Heroku
+            <a
+              rel="noopener noreferrer"
+              href="https://a-lists.herokuapp.com/"
+              target="_blank"
+            >
+              {" "}
+              <i
+                className="fas fa-external-link-alt"
+                title="live preview"
+                id="live"
+              ></i>
             </a>
-          </Row>
+          </div>
         </Col>
       </Row>
       <Row>
         <Col md={6}>
-          Professional README.md Generator
+          Professional README.MD Generator
           <img
             src={ReadMeGen}
             alt="ProfReadMeGen"
             height={150}
-            width={400}
+            width={300}
           />{" "}
-          <Row>
-            <a href="https://github.com/jannverduzco/09-Node.js-Homework-Professional-README-Generator">
-              Professional README.md Generator on GitHub
+          <div className="icons">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://github.com/jannverduzco/09-Professional-README-Generator"
+            >
+              <i className="fab fa-github" title="github repo" id="github">
+                {" "}
+              </i>
             </a>
-          </Row>
+          </div>
         </Col>
         <Col md={6}>
           Budget Tracker
           <img
-            src={BudgetTracker}
-            alt="budgetTracker"
+            src={FitnessTracker}
+            alt="FitnessTracker"
             height={150}
-            width={400}
+            width={300}
           />{" "}
-          <Row>
-            <a href="https://github.com/jannverduzco/Budget-Tracker">
-              Budget Tracker on GitHub
+           <div className="icons">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://github.com/jannverduzco/My-Workout-Tracker"
+            >
+              <i className="fab fa-github" title="github repo" id="github">
+                {" "}
+              </i>
             </a>
-          </Row>
-          <Row>
-            <a href="https://bdg-tracker.herokuapp.com/">
-              Budget Tracker on Heroku
+            <a
+              rel="noopener noreferrer"
+              href="https://stay-fit-ness-tracker.herokuapp.com/"
+              target="_blank"
+            >
+              {" "}
+              <i
+                className="fas fa-external-link-alt"
+                title="live preview"
+                id="live"
+              ></i>
             </a>
-          </Row>
+          </div>
         </Col>
       </Row>
     </div>
