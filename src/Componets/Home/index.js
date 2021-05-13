@@ -33,38 +33,28 @@ function About() {
         </Animator>
       </ScrollPage>
       <ScrollPage page={2}>
-        <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-          <span style={{ fontSize: "1.5rem" }}>
-            <div>
-              <ul>
-                <b>
-                  <ol>
-                    <h1>DEDICATED</h1>
-                  </ol>
-
-                  <ol>
-                    <h1>SELF MOTIVATED </h1>
-                  </ol>
-
-                  <ol>
-                    <h1>DETERMINED </h1>
-                  </ol>
-
-                  <ol>
-                    <h1>HUMBLE</h1>
-                  </ol>
-
-                  <ol>
-                    <h1>CONSISTENT</h1>
-                  </ol>
-
-                  <ol>
-                    <h1>HUMBLE</h1>
-                  </ol>
-                </b>
-              </ul>
-            </div>
-          </span>
+        <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -1000))}>
+          <div>
+            <ul>
+              <b>
+                <ol>
+                  <h1>DEDICATED</h1>
+                </ol>
+                <ol>
+                  <h1>SELF MOTIVATED </h1>
+                </ol>
+                <ol>
+                  <h1>DETERMINED </h1>
+                </ol>
+                <ol>
+                  <h1>CONSISTENT</h1>
+                </ol>
+                <ol>
+                  <h1>HUMBLE</h1>
+                </ol>
+              </b>
+            </ul>
+          </div>
         </Animator>
       </ScrollPage>
       <ScrollPage page={4}>

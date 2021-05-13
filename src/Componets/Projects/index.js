@@ -1,11 +1,11 @@
-import React from "react"
- 
-function Projects(props) {
+import React from "react";
+
+function Projects() {
   return (
     <div>
-      <p>Project List</p>
+      
     </div>
-  )
+  );
 }
- 
+
 export default Projects;
