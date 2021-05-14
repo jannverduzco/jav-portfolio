@@ -5,19 +5,21 @@ import ReadMeGen from "../../images/readMeGen.PNG";
 import FitnessTracker from "../../images/fitnessTracker.jpg";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import "./style.css"
+import "./style.css";
 
 function Projects() {
   return (
     <div className="container">
       <Row>
         <Col>
-          <div className="title">AutoMind</div>
-          <div>
+          <Row>
+            <div className="title">AutoMind</div>
+          </Row>
+          <Row>
             {" "}
             <img src={AutoMind} alt="AutoMind" height={150} width={300} />{" "}
-          </div>
-          <Col>
+          </Row>
+          <Row>
             <div className="icons">
               <a
                 rel="noopener noreferrer"
@@ -36,95 +38,106 @@ function Projects() {
                 {" "}
                 <i
                   className="fas fa-external-link-alt"
-                  title="live preview"
-                  id="live"
+                  title="deployed site"
+                  id="deployed"
                 ></i>
               </a>
             </div>
-          </Col>
+          </Row>
         </Col>
         <Col>
-          {" "}
-          <div className="tilte">A-Lists </div>
-          <div>
+          <Row>
+            <div className="title">A-Lists </div>
+          </Row>
+          <Row>
             <img src={ALists} alt="ALists" height={150} width={300} />{" "}
-          </div>
-          <div className="icons">
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://github.com/jannverduzco/a-lists"
-            >
-              <i className="fab fa-github" title="github repo" id="github">
+          </Row>
+          <Row>
+            <div className="icons">
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://github.com/jannverduzco/a-lists"
+              >
+                <i className="fab fa-github" title="github repo" id="github">
+                  {" "}
+                </i>
+              </a>
+              <a
+                rel="noopener noreferrer"
+                href="https://a-lists.herokuapp.com/"
+                target="_blank"
+              >
                 {" "}
-              </i>
-            </a>
-            <a
-              rel="noopener noreferrer"
-              href="https://a-lists.herokuapp.com/"
-              target="_blank"
-            >
-              {" "}
-              <i
-                className="fas fa-external-link-alt"
-                title="live preview"
-                id="live"
-              ></i>
-            </a>
-          </div>
+                <i
+                  className="fas fa-external-link-alt"
+                  title="deployed site"
+                  id="deployed"
+                ></i>
+              </a>
+            </div>
+          </Row>
         </Col>
       </Row>
       <Row>
         <Col>
-          <div className="tilte"> Professional README.MD Generator </div>
-          <div>
+          <Row>
+            <div className="title"> Professional README.MD Generator </div>
+          </Row>
+          <Row>
             <img src={ReadMeGen} alt="ProfReadMeGen" height={150} width={300} />{" "}
-          </div>
-          <div className="icons">
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://github.com/jannverduzco/09-Professional-README-Generator"
-            >
-              <i className="fab fa-github" title="github repo" id="github">
-                {" "}
-              </i>
-            </a>
-          </div>
+          </Row>
+          <Row>
+            <div className="icons">
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://github.com/jannverduzco/09-Professional-README-Generator"
+              >
+                <i className="fab fa-github" title="github repo" id="github">
+                  {" "}
+                </i>
+              </a>
+            </div>
+          </Row>
         </Col>
         <Col>
-          <div className="tilte"> Budget Tracker</div>
-          <div>
+          <Row>
+            <div className="title"> Budget Tracker</div>
+          </Row>
+          <Row>
             <img
               src={FitnessTracker}
               alt="FitnessTracker"
               height={150}
               width={300}
             />{" "}
-          </div>
-          <div className="icons">
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://github.com/jannverduzco/My-Workout-Tracker"
-            >
-              <i className="fab fa-github" title="github repo" id="github">
+          </Row>
+          <Row>
+            <div className="icons">
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://github.com/jannverduzco/My-Workout-Tracker"
+              >
+                <i className="fab fa-github" title="github repo" id="github">
+                  {" "}
+                </i>
+              </a>
+              <a
+                rel="noopener noreferrer"
+                href="https://stay-fit-ness-tracker.herokuapp.com/"
+                target="_blank"
+              >
                 {" "}
-              </i>
-            </a>
-            <a
-              rel="noopener noreferrer"
-              href="https://stay-fit-ness-tracker.herokuapp.com/"
-              target="_blank"
-            >
-              {" "}
-              <i
-                className="fas fa-external-link-alt"
-                title="live preview"
-                id="live"
-              ></i>
-            </a>
-          </div>
+                <i
+                  className="fas fa-external-link-alt"
+                  title="deployed site"
+                  id="deployed"
+                ></i>
+              </a>
+            </div>
+          </Row>
         </Col>
       </Row>
     </div>

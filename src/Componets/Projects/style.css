@@ -1,3 +1,18 @@
+.container {
+  padding: 30px;
+}
+
+.title {
+  font-size: 1.5em;
+  letter-spacing: -1px;
+  font-weight: 600;
+  color: #000000f3;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  background-color: #81be3a77;
+}
+
 .icons #github {
   background-color: rgb(255, 255, 255);
 }
@@ -6,12 +21,12 @@
   background-color: rgb(240, 159, 68);
 }
 
-.icons #live {
+.icons #deployed {
   background-color: rgb(255, 255, 255);
 }
 
-.icons #live:hover {
-  background-color:  rgb(240, 159, 68);
+.icons #deployed:hover {
+  background-color: rgb(240, 159, 68);
 }
 
 .icons i {
@@ -20,5 +35,4 @@
   font-size: 2rem;
   margin: 50px 3px;
   border-radius: 30px;
-  
 }
