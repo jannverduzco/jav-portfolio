@@ -1,20 +1,19 @@
-.container {
-  padding: 30px;
-}
-
 .title {
   font-size: 1.5em;
   letter-spacing: -1px;
   font-weight: 600;
   color: #000000f3;
-  text-align: center;
   background-color: white;
   border-radius: 5px;
   background-color: #81be3a77;
 }
 
+#projectImg {
+  padding: 10px;
+}
+
 .icons #github {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .icons #github:hover {
@@ -22,7 +21,7 @@
 }
 
 .icons #deployed {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .icons #deployed:hover {
@@ -33,6 +32,6 @@
   color: rgb(0, 0, 0);
   cursor: pointer;
   font-size: 2rem;
-  margin: 50px 3px;
+  margin: 25px 5px 20px;
   border-radius: 30px;
 }

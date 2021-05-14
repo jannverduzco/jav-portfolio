@@ -1,9 +1,15 @@
+.container {
+  padding: 20px;
+  background-image: url("images/about-me.jpg");
+  background-size: cover;
+}
+
 @media screen and (max-width: 768px) {
-    .container {
-      width: 90%;
-      justify-content: center;
-      text-align: center;
-      margin: 0 auto;
-    }
+  .container {
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
   }
-  
+}

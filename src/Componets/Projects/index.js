@@ -9,135 +9,123 @@ import "./style.css";
 
 function Projects() {
   return (
-    <div className="container">
+    <div className="container project-container">
       <Row>
         <Col>
-          <Row>
-            <div className="title">AutoMind</div>
-          </Row>
-          <Row>
-            {" "}
-            <img src={AutoMind} alt="AutoMind" height={150} width={300} />{" "}
-          </Row>
-          <Row>
-            <div className="icons">
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://github.com/jannverduzco/AutoMind"
-              >
-                <i className="fab fa-github" title="github repo" id="github">
-                  {" "}
-                </i>
-              </a>
-              <a
-                rel="noopener noreferrer"
-                href="https://auto-mind.herokuapp.com/"
-                target="_blank"
-              >
+          <div className="title">AutoMind</div>{" "}
+          <img
+            src={AutoMind}
+            alt="AutoMind"
+            id="projectImg"
+            height={150}
+            width={300}
+          />{" "}
+          <div className="icons">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://github.com/jannverduzco/AutoMind"
+            >
+              <i className="fab fa-github" title="github repo" id="github">
                 {" "}
-                <i
-                  className="fas fa-external-link-alt"
-                  title="deployed site"
-                  id="deployed"
-                ></i>
-              </a>
-            </div>
-          </Row>
+              </i>
+            </a>
+            <a
+              rel="noopener noreferrer"
+              href="https://auto-mind.herokuapp.com/"
+              target="_blank"
+            >
+              {" "}
+              <i
+                className="fas fa-external-link-alt"
+                title="deployed site"
+                id="deployed"
+              ></i>
+            </a>
+          </div>
         </Col>
         <Col>
-          <Row>
-            <div className="title">A-Lists </div>
-          </Row>
-          <Row>
-            <img src={ALists} alt="ALists" height={150} width={300} />{" "}
-          </Row>
-          <Row>
-            <div className="icons">
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://github.com/jannverduzco/a-lists"
-              >
-                <i className="fab fa-github" title="github repo" id="github">
-                  {" "}
-                </i>
-              </a>
-              <a
-                rel="noopener noreferrer"
-                href="https://a-lists.herokuapp.com/"
-                target="_blank"
-              >
+          <div className="title"> Professional README.MD Generator </div>
+          <img
+            src={ReadMeGen}
+            alt="ProfReadMeGen"
+            height={150}
+            width={300}
+          />{" "}
+          <div className="icons">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://github.com/jannverduzco/09-Professional-README-Generator"
+            >
+              <i className="fab fa-github" title="github repo" id="github">
                 {" "}
-                <i
-                  className="fas fa-external-link-alt"
-                  title="deployed site"
-                  id="deployed"
-                ></i>
-              </a>
-            </div>
-          </Row>
+              </i>
+            </a>
+          </div>
         </Col>
       </Row>
       <Row>
         <Col>
-          <Row>
-            <div className="title"> Professional README.MD Generator </div>
-          </Row>
-          <Row>
-            <img src={ReadMeGen} alt="ProfReadMeGen" height={150} width={300} />{" "}
-          </Row>
-          <Row>
-            <div className="icons">
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://github.com/jannverduzco/09-Professional-README-Generator"
-              >
-                <i className="fab fa-github" title="github repo" id="github">
-                  {" "}
-                </i>
-              </a>
-            </div>
-          </Row>
+          <div className="title">A-Lists </div>
+          <div>
+            <img src={ALists} alt="ALists" height={150} width={300} />{" "}
+          </div>
+          <div className="icons">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://github.com/jannverduzco/a-lists"
+            >
+              <i className="fab fa-github" title="github repo" id="github">
+                {" "}
+              </i>
+            </a>
+            <a
+              rel="noopener noreferrer"
+              href="https://a-lists.herokuapp.com/"
+              target="_blank"
+            >
+              {" "}
+              <i
+                className="fas fa-external-link-alt"
+                title="deployed site"
+                id="deployed"
+              ></i>
+            </a>
+          </div>
         </Col>
         <Col>
-          <Row>
-            <div className="title"> Budget Tracker</div>
-          </Row>
-          <Row>
-            <img
-              src={FitnessTracker}
-              alt="FitnessTracker"
-              height={150}
-              width={300}
-            />{" "}
-          </Row>
-          <Row>
-            <div className="icons">
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://github.com/jannverduzco/My-Workout-Tracker"
-              >
-                <i className="fab fa-github" title="github repo" id="github">
-                  {" "}
-                </i>
-              </a>
-              <a
-                rel="noopener noreferrer"
-                href="https://stay-fit-ness-tracker.herokuapp.com/"
-                target="_blank"
-              >
+          <div className="title"> Budget Tracker</div>
+          <img
+            src={FitnessTracker}
+            alt="FitnessTracker"
+            height={150}
+            width={300}
+          />{" "}
+          <div className="icons">
+            <a
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://github.com/jannverduzco/My-Workout-Tracker"
+            >
+              <i className="fab fa-github" title="github repo" id="github">
                 {" "}
-                <i
-                  className="fas fa-external-link-alt"
-                  title="deployed site"
-                  id="deployed"
-                ></i>
-              </a>
-            </div>
-          </Row>
+              </i>
+            </a>
+            <a
+              rel="noopener noreferrer"
+              href="https://stay-fit-ness-tracker.herokuapp.com/"
+              target="_blank"
+            >
+              {" "}
+              <i
+                className="fas fa-external-link-alt"
+                title="deployed site"
+                id="deployed"
+              ></i>
+            </a>
+          </div>
         </Col>
       </Row>
     </div>
