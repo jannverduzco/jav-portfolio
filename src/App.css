@@ -4,12 +4,21 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 768px) {
+h2 {
+  text-align: center;
+  font-family: "Julius Sans One", sans-serif;
+  text-shadow: 0.5px 0.5px #574b19;
+}
+
+@media screen and (max-width: 780px) {
   .container {
-    width: 90%;
-    justify-content: center;
-    text-align: center;
-    margin: 0 auto;
-    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .justify-content-md-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
