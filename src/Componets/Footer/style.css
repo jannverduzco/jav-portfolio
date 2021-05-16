@@ -1,0 +1,25 @@
+footer {
+  padding-top: 10px;
+}
+
+.icons #github {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .icons #github:hover {
+    background-color: rgb(240, 159, 68);
+  }
+  
+  .icons #linkedIn {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .icons #linkedIn:hover {
+    background-color: rgb(68, 171, 240);
+  }
+  
+  .icons i {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+  }
+  
