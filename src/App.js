@@ -6,11 +6,14 @@ import About from "./Componets/About";
 import Projects from "./Componets/Projects";
 import Contact from "./Componets/Contact";
 import Footer from "./Componets/Footer";
+import Logo from "./images/JAVLogo.png";
+
 
 function App() {
   return (
     <div className="container">
       <Router>
+      <img src={Logo} alt="logo" className="logo"></img>
         <NavBar />
         <Home />
         <About />

@@ -10,6 +10,14 @@ h2 {
   text-shadow: 0.5px 0.5px #574b19;
 }
 
+.logo {
+  position: absolute;
+  left: 2vh;
+  top: 1vh;
+  height: 10vh;
+  width: 10vh;
+}
+
 @media screen and (max-width: 780px) {
   .container {
     display: flex;
