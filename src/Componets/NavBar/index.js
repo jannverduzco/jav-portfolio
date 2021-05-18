@@ -3,6 +3,7 @@ import "./style.css";
 import * as ReactBootStrap from "react-bootstrap";
 import { Link } from "react-router-dom";
 
+
 function NavBar() {
   return (
     <ReactBootStrap.Navbar
@@ -11,6 +12,7 @@ function NavBar() {
       expand="md"
       variant="light"
     >
+
       <ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
       <ReactBootStrap.Navbar.Collapse id="basic-navbar-nav">
         <ReactBootStrap.Nav className="mr-auto">
