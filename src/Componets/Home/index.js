@@ -34,23 +34,23 @@ function About() {
       </ScrollPage>
       <ScrollPage page={2}>
         <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -100))}>
-          <div>
+          <div className="description-list">
             <ul>
               <b>
                 <ol>
-                  <h1>DEDICATED</h1>
+                  <h1>PROBLEM SOLVER</h1>
                 </ol>
                 <ol>
-                  <h1>SELF MOTIVATED </h1>
+                  <h1>ATTENTION TO DETAIL</h1>
                 </ol>
                 <ol>
-                  <h1>DETERMINED </h1>
+                  <h1>DRIVEN</h1>
                 </ol>
                 <ol>
-                  <h1>CONSISTENT</h1>
+                  <h1>CREATIVE</h1>
                 </ol>
                 <ol>
-                  <h1>HUMBLE</h1>
+                  <h1>PROACTIVE</h1>
                 </ol>
               </b>
             </ul>

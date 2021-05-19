@@ -4,9 +4,9 @@
   padding: 0;
 }
 
-h1 {
+.description-list {
   font-size: 4.3em;
-  letter-spacing: -4px;
+  letter-spacing: -1px;
   font-weight: 700;
   color: #af7c39;
   text-align: center;
