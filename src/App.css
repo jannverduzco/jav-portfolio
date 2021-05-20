@@ -2,6 +2,7 @@
   padding: 20px;
   background-image: url("images/about-me.jpg");
   background-size: cover;
+  overflow: hidden;
 }
 
 h2 {

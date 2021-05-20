@@ -11,7 +11,7 @@ import "./style.css";
 
 function Projects() {
   return (
-    <Container className="container">
+    <div className="container">
       <h2>Projects</h2>
       <Row className="justify-content-md-center">
         <Col sm="4">
@@ -163,7 +163,7 @@ function Projects() {
           </Row>
         </Col>
       </Row>
-    </Container>
+    </div>
   );
 }
 
