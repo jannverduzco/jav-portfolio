@@ -22,13 +22,13 @@ function About() {
     <ScrollContainer>
       <ScrollPage page={0}>
         <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-          <span style={{ fontSize: "1.5rem" }}>Hello World!🌎👋</span>
+          <span style={{ fontSize: "1.5rem" }}>Hello World!👋</span>
         </Animator>
       </ScrollPage>
       <ScrollPage page={1}>
         <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -100))}>
           <span style={{ fontSize: "1.5rem" }}>
-            My name is Janneth and I am a Full Stack Web Developer ✨
+            My name is Janneth and I am a Full Stack Web Developer 👨‍💻
           </span>
         </Animator>
       </ScrollPage>
