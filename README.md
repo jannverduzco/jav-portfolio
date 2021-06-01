@@ -2,7 +2,7 @@
 
 [![Janneth's GitHub Banner](src/images/readme-banner.jpg)](https://github.com/jannverduzco)
 
-[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](www.linkedin.com/in/jannethaverduzco)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/jannethaverduzco/)
 
 [Check Out My Portfolio](https://janneth-alvarado-verduzco.herokuapp.com/) to know more about me and my work.
 
